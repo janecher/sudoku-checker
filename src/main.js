@@ -1,8 +1,3 @@
-//1 2 4 3     -- > [[1, 2, 4, 3], [4, 3, 1, 2], [3, 4, 2, 1], [2, 1, 3, 4]]
-//4 3 1 2
-//3 4 2 1
-//2 1 3 4
-
 export function horizontalCheck(array) {
   let checkArray = [];
   for (let i=0; i < array.length; i++) {
@@ -42,16 +37,3 @@ export function allVerticalLinesCheck(sudokuArray) {
   }
   return true;
 }
-
-/*sudokuArray = [[1, 2, 4, 3], [4, 3, 1, 2], [3, 4, 2, 1], [2, 1, 3, 4]]
-0 1 2 3
-
-j = 2
-
-sudokuArray[i][j]
-sudokuArray[0] = [1, 2, 4, 3]
-
-sudokuArray[0][2] = 4;
-sudokuArray[1][2] = 1;
-sudokuArray[2][2] = 2;
-sudokuArray[3][2] = 3;*/
