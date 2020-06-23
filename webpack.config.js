@@ -17,7 +17,7 @@ module.exports = {
     new UglifyJsPlugin({ sourceMap: true }),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'project-name',
+      title: 'Sudoku Checker',
       template: './src/index.html',
       inject: 'body'
     })
